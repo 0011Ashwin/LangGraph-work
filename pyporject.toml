@@ -1,0 +1,59 @@
+[Project]
+name = "langgraph"
+version = "0.1.0"
+description = "Langgraph project"
+
+[Tool.Poetry]
+name = "poetry"
+version = "1.9.0"
+commands = ["poetry"]
+dependencies = ["poetry"]
+
+[Dependency.Pytest]
+name = "pytest"
+generic = false
+optional = false
+
+[Tool.Poetry.Dependencies.Python]
+name = "python"
+constraint = "3.12.0" conda env
+
+[Tool.Poetry.Dependencies.Langgraph]
+name = "langgraph"
+generic = false
+optional = false
+
+[Tool.Poetry.Dependencies.Langchain]
+name = "langchain"
+generic = false
+optional = false
+
+[Tool.Poetry.Dependencies.Langchain-openai]
+name = "langchain-openai"
+generic = false
+optional = false
+
+[Tool.Poetry.Dependencies.Langchain-groq]
+name = "langchain-groq"
+generic = false
+optional = false
+
+[Tool.Poetry.Dependencies.Langchain-tavily]
+name = "langchain-tavily"
+generic = false
+optional = false
+
+[Tool.Poetry.Dependencies.Langchain-community]
+name = "langchain-community"
+generic = false
+optional = false
+
+[Tool.Poetry.Dependencies.Langchain-core]
+name = "langchain-core"
+generic = false
+optional = false
+
+[Tool.Poetry.Dependencies.Langchain-huggingface]
+name = "langchain-huggingface"
+generic = false
+optional = false
