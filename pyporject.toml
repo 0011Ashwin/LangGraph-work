@@ -1,5 +1,5 @@
 [Project]
-name = "langgraph"
+name = "Agentic work-flow langgraph"
 version = "0.1.0"
 description = "Langgraph project"
 
@@ -28,7 +28,7 @@ name = "langchain"
 generic = false
 optional = false
 
-[Tool.Poetry.Dependencies.Langchain-openai]
+    [Tool.Poetry.Dependencies.Langchain-openai]
 name = "langchain-openai"
 generic = false
 optional = false
