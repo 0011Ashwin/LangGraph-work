@@ -11,7 +11,7 @@ human
 - **Tool calling** lets the model request an external action (search, math, weather, human help). The graph routes those calls to a tools node and then back to the chatbot.
 - **Human in the loop** pauses the graph with `interrupt` so a person can review or answer, then resumes with `Command`.
 - **MCP (Model Context Protocol)** is how `client.py` talks to local tool servers (`math-server.py` over stdio, `weather.py` over HTTP) and wraps those tools for LangGraph.
-
+.
 ## What is in this repository
 
 | Path | Role |
