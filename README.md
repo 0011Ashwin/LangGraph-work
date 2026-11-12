@@ -2,7 +2,7 @@
 
 Agentic AI applications built with LangGraph. This repository contains learning notebooks and a multi-server MCP agent that show how graphs, state, tools, and human review work together.
 human 
-## Definitions.
+## Definitions..
 
 - **Agentic AI** are AI agents that can work independently to perform a task. They decide what to do next, call tools when needed, and update shared state until the task is done.
 - **LangGraph** is a framework for building agentic AI applications. You define a graph of nodes and edges. Nodes do work (call an LLM, run a tool, wait for a human). Edges decide the next step from the current state.
